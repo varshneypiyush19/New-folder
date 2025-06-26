@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const multer = require("multer");
 const path = require("path");
-const Profile = require("./models/profile");
+const Profile = require("./models/Profile");
 const Location = require("./models/location");
 
 const app = express();

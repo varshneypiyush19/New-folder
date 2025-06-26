@@ -1,23 +1,3 @@
-// const mongoose = require("mongoose");
-
-// const ProfileSchema = new mongoose.Schema({
-//   profilePhotoUrl: String,
-//   username: String,
-//   currentPassword: String,
-//   newPassword: String,
-//   profession: String,
-//   companyName: String,
-//   designation: String,
-//   addressLine1: String,
-//   country: String,
-//   state: String,
-//   city: String,
-//   subscription: String,
-//   newsletter: Boolean,
-// });
-
-// module.exports = mongoose.model("Profile", ProfileSchema);
-
 const mongoose = require("mongoose");
 
 const ProfileSchema = new mongoose.Schema(
